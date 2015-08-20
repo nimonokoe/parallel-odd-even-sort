@@ -20,7 +20,7 @@ int main()
   }
 
   for(int experiment_times = 0; experiment_times<10; experiment_times++){
-    for(NUM_THREADS = 1; NUM_THREADS<=10; NUM_THREADS++){
+    for(NUM_THREADS = 1; NUM_THREADS<=30; NUM_THREADS++){
       int i, *iap, *oap, v;
       double start_time=0, end_time=0;
       printf("Odd-Even Sort Start\n");
